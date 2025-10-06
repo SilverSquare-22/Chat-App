@@ -35,8 +35,6 @@ Before beginning, it has to be ensured that the following are installed:
 - **Git:** [Git official website](https://git-scm.com/)
 - **A Code Editor:** [Visual Studio Code](https://code.visualstudio.com/) (recommended)
 
------
-
 ### **2. Installation Steps**
 
 - **Clone the Repository:**
@@ -55,7 +53,6 @@ Before beginning, it has to be ensured that the following are installed:
     npm install
     ```
 
------
 
 ### **3. Running the Application**
 
@@ -68,7 +65,6 @@ Before beginning, it has to be ensured that the following are installed:
     The terminal should display a confirmation message:
     `Server is listening on http://localhost:3000`
 
------
 
 ### **4. Viewing the App in Browser**
 
