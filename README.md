@@ -39,17 +39,17 @@ Before beginning, it has to be ensured that the following are installed:
 
 ### **2. Installation Steps**
 
-- **Clone the Repository**
+- **Clone the Repository:**
     Open a terminal (like PowerShell, Command Prompt or Ubuntu in WSL) and run the following command to download the project files from GitHub:
     ```bash
     git clone https://github.com/SilverSquare-22/Chat-App
     ```
-- **Navigate to the Project Folder**
+- **Navigate to the Project Folder:**
     Once the download is complete, move into the project's directory.
     ```bash
     cd Socket-IO-Chat
     ```
-- **Install Project Dependencies**
+- **Install Project Dependencies:**
     This command reads the `package.json` file and automatically downloads all the necessary code toolboxes (like Express and Socket.IO) that the project needs to function.
     ```bash
     npm install
@@ -59,12 +59,12 @@ Before beginning, it has to be ensured that the following are installed:
 
 ### **3. Running the Application**
 
-- **Start the Server**
+- **Start the Server:**
     While still inside the project folder in your terminal, run the following command:
     ```bash
     node index.js
     ```
-- **Check the Output**
+- **Check the Output:**
     The terminal should display a confirmation message:
     `Server is listening on http://localhost:3000`
 
