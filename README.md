@@ -1,21 +1,30 @@
+# Report: Socket.IO Chat
+
 This report covers the core aspects of the real-time application built using Node.js, Express and Socket.IO.
+
 
 ## Objective
 The main aim was to create a simple webpage where multiple people can talk to each other without needing to refresh the page.
 
+
 ## Main Project Components
 - **The Server (index.js):** It constantly waits for users to connect, followed by managing the real-time flow of all chat messages between them.
 - **The Client (index.html):** The client refers to the webpage that the users interact with, responsible for updating the chat and displaying all the messages on the screen.
+
 
 ## Communication Flow
 - **Sending a message:** When the user types a message into the textbox and hits 'send', the browser forwards the information to the central server.
 - **Client to Server:** The server then relays a copy of that message to every other user connected to the chat.
 - **Receiving the message:** Each user's browser receives the message from the server and instantly updates the chat list to display it for everyone at the same time.
 
+
 ## Technology Stack
 - **Node.js:** A JavaScript runtime environment that executes the server-side code, working as the backend
 - **Express:** A framework for Node.js that serves the frontend webpage
 - **Socket.IO:** The library that creates a two-way connection between the server and each user, enabling instant message delivery
+
+## Chat App in Action
+![Project Demo](./assets/Live-Server-GIF.gif)
 
 ## Installation and Setup Guide
 
