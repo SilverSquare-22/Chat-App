@@ -13,9 +13,9 @@ The main aim was to create a simple webpage where multiple people can talk to ea
 
 
 ## Communication Flow
-- **Sending a message:** When the user types a message into the textbox and hits 'send', the browser forwards the information to the central server.
-- **Client to Server:** The server then relays a copy of that message to every other user connected to the chat.
-- **Receiving the message:** Each user's browser receives the message from the server and instantly updates the chat list to display it for everyone at the same time.
+- When the user types a message into the textbox and hits 'send', the browser forwards the information to the central server.
+- The server then relays a copy of that message to every other user connected to the chat.
+- Each user's browser receives the message from the server and instantly updates the chat list to display it for everyone at the same time.
 
 
 ## Technology Stack
